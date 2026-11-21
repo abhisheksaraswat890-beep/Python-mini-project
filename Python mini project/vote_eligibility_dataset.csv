@@ -1,0 +1,9 @@
+test_case_id,name,age_input,expected_output,purpose
+TC01,Aarav,17,NOT ELIGIBLE,Age below 18
+TC02,Diya,18,ELIGIBLE,Minimum eligible age
+TC03,Kabir,25,ELIGIBLE,Age above 18
+TC04,Meera,0,NOT ELIGIBLE,Zero age
+TC05,Ishaan,-2,INVALID AGE,Negative age validation
+TC06,Anaya,abc,INVALID INPUT,Non-numeric age handling
+TC07,Reyansh,18.5,INVALID INPUT,Decimal input is not accepted by int()
+TC08,Sara,,INVALID INPUT,Empty age input
